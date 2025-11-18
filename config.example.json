@@ -1,0 +1,28 @@
+{
+  "obsidianVaultPath": "/path/to/your/obsidian/vault/Kindle",
+  "outputFormat": {
+    "fileNameTemplate": "{{title}} - {{author}}",
+    "includeMetadata": true,
+    "groupBy": "book",
+    "sortHighlightsBy": "location"
+  },
+  "sync": {
+    "updateExisting": true,
+    "archiveDeleted": true,
+    "archivePath": "_archive"
+  },
+  "markdown": {
+    "frontmatter": {
+      "title": true,
+      "author": true,
+      "category": true,
+      "lastSync": true,
+      "highlightsCount": true,
+      "asin": true
+    },
+    "highlightFormat": "blockquote",
+    "includeLocation": true,
+    "includeDate": true,
+    "includeNotes": true
+  }
+}

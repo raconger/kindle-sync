@@ -1,0 +1,45 @@
+{
+  "name": "kindle-sync",
+  "version": "1.0.0",
+  "description": "Export Kindle highlights to Obsidian-compatible markdown files",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts",
+    "sync": "npm run dev",
+    "lint": "eslint src --ext .ts",
+    "format": "prettier --write \"src/**/*.ts\""
+  },
+  "keywords": [
+    "kindle",
+    "highlights",
+    "obsidian",
+    "markdown",
+    "export",
+    "sync"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "amazon-kindle": "^1.0.0",
+    "commander": "^11.1.0",
+    "dotenv": "^16.3.1",
+    "gray-matter": "^4.0.3",
+    "axios": "^1.6.2",
+    "cheerio": "^1.0.0-rc.12"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.4",
+    "@typescript-eslint/eslint-plugin": "^6.13.2",
+    "@typescript-eslint/parser": "^6.13.2",
+    "eslint": "^8.55.0",
+    "prettier": "^3.1.0",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
