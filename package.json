@@ -23,12 +23,12 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "amazon-kindle": "^1.0.0",
+    "axios": "^1.6.2",
+    "cheerio": "^1.0.0-rc.12",
     "commander": "^11.1.0",
     "dotenv": "^16.3.1",
     "gray-matter": "^4.0.3",
-    "axios": "^1.6.2",
-    "cheerio": "^1.0.0-rc.12"
+    "playwright": "^1.57.0"
   },
   "devDependencies": {
     "@types/node": "^20.10.4",

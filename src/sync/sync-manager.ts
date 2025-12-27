@@ -1,5 +1,5 @@
 import { readdir, readFile, writeFile, mkdir, rename } from 'fs/promises';
-import { resolve, join } from 'path';
+import { resolve } from 'path';
 import { existsSync } from 'fs';
 import { KindleClient } from '../api/kindle-client.js';
 import { MarkdownExporter } from '../exporters/markdown.js';
